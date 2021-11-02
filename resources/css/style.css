@@ -1,0 +1,48 @@
+html {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+.header {
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    background-color:white;
+    align-items: center;
+    width: 100%;
+}
+
+.header .logo {
+    display: flex;
+    margin-left: 24px;
+}
+
+.header .links {
+    display: flex;
+    margin-right: 24px;
+}
+
+.div1 {
+    background-color: rgb(185, 185, 185);
+}
+
+h1 {
+    height: 32px;
+    color: rgb(185, 185, 185);
+}
+
+h1 span {
+    color:#403d39;
+}
+
+p a {
+    margin-left: 16px;
+    color: #403d39;
+}
