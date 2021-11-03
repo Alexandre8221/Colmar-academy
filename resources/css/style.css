@@ -7,8 +7,10 @@ html {
 }
 
 body {
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* HEADING */
 
 .header {
     display: flex;
@@ -29,20 +31,67 @@ body {
     margin-right: 24px;
 }
 
-.div1 {
-    background-color: rgb(185, 185, 185);
-}
-
-h1 {
+.header h1 {
     height: 32px;
     color: rgb(185, 185, 185);
 }
 
-h1 span {
+.header h1 span {
     color:#403d39;
 }
 
-p a {
+.header p a {
     margin-left: 16px;
     color: #403d39;
 }
+
+/* BANNER */
+
+.main-1 {
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    color: #403d39;
+    box-sizing: border-box;
+}
+
+.banner-img {
+    width: 60%;
+    height: ;
+    margin: 32px 24px;   
+}
+
+.banner-img img {
+    width: 100%;
+    height: ;
+}
+
+.banner-text {
+    display: flex;
+    margin-left: 24px;
+    flex-direction: column;
+}
+
+.rectangle {
+    height: 50px;
+    width: 100%;
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px auto;
+}
+
+.banner-text a {
+    color: white;
+}
+
+.banner-text h1 {
+    margin: 16px auto;
+}
+
+/* MAIN 2 */
+
+
+
