@@ -8,6 +8,15 @@ html {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--color-main-1);
+    margin: 0px;
+
+}
+
+:root {
+    --color-main-1: rgb(73, 73, 73);
+    --color-background-3: #CDCDCD;
+    
 }
 
 /* HEADING */
@@ -24,6 +33,7 @@ body {
 .header .logo {
     display: flex;
     margin-left: 24px;
+    
 }
 
 .header .links {
@@ -33,26 +43,29 @@ body {
 
 .header h1 {
     height: 32px;
-    color: rgb(185, 185, 185);
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .header h1 span {
-    color:#403d39;
+    color: var(--color-background-3);
 }
 
 .header p a {
     margin-left: 16px;
-    color: #403d39;
+    color: var(--color-main-1);
+    text-decoration: none;
 }
+
 
 /* BANNER */
 
 .main-1 {
-    background-color: rgb(185, 185, 185);
+    background-color: var(--color-background-3);
     display: flex;
     width: 100%;
     align-items: center;
-    color: #403d39;
+    
     box-sizing: border-box;
 }
 
@@ -76,7 +89,7 @@ body {
 .rectangle {
     height: 50px;
     width: 100%;
-    background-color: #555;
+    background-color:var(--color-main-1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,5 +106,27 @@ body {
 
 /* MAIN 2 */
 
+.main-2 {
+    display: flex;
+    width: 100%;
+}
+
+.post-header {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.post-news {
+    width: 40%;
+}
+
+.post-header
+.main-1__post-header-footer {
+    margin-top: 32px;
+}
+
+.post-header a {
+    color: var(--color-main-1);
+}
 
 
