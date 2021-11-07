@@ -293,3 +293,17 @@ body {
 .box-1 , .box-2 {
     display: flex;
 }
+
+video {
+    width: 100%;
+}
+
+.box-outer .post-news .boxes .images {
+    width: 35%;
+    margin: 16px;
+    height: auto;
+}
+
+.box-outer .post-news .boxes .description {
+    width: 65%;
+}
