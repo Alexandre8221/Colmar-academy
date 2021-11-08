@@ -279,6 +279,13 @@ body {
 .post-video {
     width: 60%;
     margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-video video {
+    width: 100%;
+    
 }
 
 .box-outer .post-news {
@@ -290,20 +297,44 @@ body {
     background-color: var(--color-background-3);
 }
 
-.box-1 , .box-2 {
+.boxes {
     display: flex;
 }
 
-video {
-    width: 100%;
-}
-
-.box-outer .post-news .boxes .images {
+.boxes .images {
     width: 35%;
     margin: 16px;
+}
+
+.boxes img {
+    width: 100%;
     height: auto;
 }
 
 .box-outer .post-news .boxes .description {
     width: 65%;
+}
+
+.boxes .description {
+    text-align: left;
+    margin-left: 16px;
+    align-self: center;
+}
+
+.post-video .description p {
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.footer .terms {
+    display: flex;
+}
+
+.terms p {
+    margin: 8px
 }
